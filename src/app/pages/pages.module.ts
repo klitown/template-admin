@@ -11,6 +11,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -21,13 +22,15 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     Grafica1Component,
     PagesComponent,
     PagenotfoundComponent,
+    AccountSettingsComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
